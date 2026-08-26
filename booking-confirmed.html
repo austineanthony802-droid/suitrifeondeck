@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Booking Confirmed | Suite Rife On Deck</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com/">
+  <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+  <link href="https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:700" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.7.2/css/all.min.css">
+
+  <link rel="stylesheet" href="assets/vendors/elementor-icons.css">
+  <link rel="stylesheet" href="assets/vendors/elementor-frontend.css">
+  <link rel="stylesheet" href="assets/vendors/magnific-popup.css">
+  <link rel="stylesheet" href="assets/css/vendors.css">
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <link rel="stylesheet" href="assets/css/blocks.css">
+  <link rel="stylesheet" href="assets/css/custom-styles.css">
+  <link rel="stylesheet" href="assets/css/booking.css">
+</head>
+<body>
+
+  <!-- Paste your header here -->
+
+  <main id="booking-page">
+    <section class="booking-card">
+      <div class="wrapper" style="text-align:center; max-width:600px;">
+
+        <div class="confirmation-icon">
+          <i class="fas fa-check-circle"></i>
+        </div>
+
+        <h1>Booking Confirmed!</h1>
+        <p class="confirmation-subtitle">Thank you for booking with Suite Rife on Deck 2027.</p>
+
+        <hr class="booking-divider" />
+
+        <div class="confirmation-details" id="confirmation-details">
+          <p class="summary-label">Cabin Details</p>
+          <p class="summary-cabin" id="confirm-cabin"></p>
+
+          <p class="summary-label">Guests</p>
+          <p class="summary-cabin" id="confirm-guests"></p>
+
+          <p class="summary-label">Total Amount Paid</p>
+          <p class="summary-total" id="confirm-total"></p>
+        </div>
+
+        <p class="confirmation-note">A confirmation email will be sent to you shortly. You can view your reservation details anytime from your account.</p>
+
+        <a href="index.html" class="button lg-bttn">Return to Homepage</a>
+      </div>
+    </section>
+  </main>
+
+  <!-- Paste your footer here -->
+
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+  <script src="assets/js/supabase-client.js"></script>
+  <script src="assets/js/booking-confirmed.js"></script>
+</body>
+</html>

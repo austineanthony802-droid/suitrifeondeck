@@ -1,0 +1,543 @@
+#booking-page {
+  background: #fff;
+}
+
+.booking-card {
+  background-color: #f2e8d5;
+  padding: 20px;
+}
+
+.booking-card .wrapper {
+  max-width: 1000px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.booking-card h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 32px;
+  color: #2b1a4a;
+  margin-bottom: 10px;
+}
+
+.booking-steps {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+  color: #333;
+  margin-bottom: 12px;
+}
+
+.booking-steps .step {
+  color: #333;
+}
+
+.booking-steps .step.active {
+  font-weight: 600;
+}
+
+.booking-steps .step-arrow {
+  margin: 0 8px;
+  color: #999;
+}
+
+.booking-divider {
+  border: none;
+  border-top: 2px solid #e0a72e;
+  margin-bottom: 30px;
+}
+
+.booking-divider-light {
+  border: none;
+  border-top: 1px solid #d8cbb0;
+  margin: 20px 0;
+}
+
+.booking-content {
+  display: flex;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.booking-sidebar {
+  flex: 0 0 220px;
+}
+
+.booking-sidebar h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  color: #1a1a2e;
+  margin-bottom: 6px;
+}
+
+.booking-sidebar .ship-name {
+  color: #d2691e;
+  font-weight: 600;
+  margin-bottom: 6px;
+}
+
+.booking-sidebar .cruise-dates {
+  color: #2b1a4a;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.booking-main {
+  flex: 1;
+  min-width: 280px;
+}
+
+#booking-logo {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.footer-page {
+  background: #f2e8d5;
+}
+
+#main-footer {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.booking-notice {
+  font-size: 17px;
+  color: #1a1a1a;
+  margin-bottom: 20px;
+}
+
+.booking-prompt {
+  font-size: 18px;
+  color: #1a1a1a;
+  margin-bottom: 6px;
+}
+
+.guest-count-buttons {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+  margin-bottom: 24px;
+}
+
+.guest-btn {
+  background-image: linear-gradient(#4a90d9, #3fadff);
+  color: #fff;
+  border: none;
+  padding: 12px 20px;
+  font-size: 15px;
+  font-weight: 600;
+  border-radius: 4px;
+  cursor: pointer;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.guest-btn:hover,
+.guest-btn.selected {
+  background-image: linear-gradient(#3a7bc0, #2f8de0);
+}
+
+.booking-alt-text {
+  font-size: 15px;
+  color: #333;
+  margin-bottom: 12px;
+}
+
+#your-reservations-btn {
+  display: inline-block;
+  background-image: linear-gradient(#4a90d9, #3fadff);
+  color: #fff;
+  text-decoration: none;
+  padding: 12px 24px;
+  font-weight: 600;
+  border-radius: 4px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.start-over-link {
+  display: inline-block;
+  color: #2f5fd8;
+  font-weight: 700;
+  font-family: 'Montserrat', sans-serif;
+  text-decoration: none;
+  margin-top: 12px;
+}
+
+.start-over-link:hover {
+  text-decoration: underline;
+}
+
+.booking-instruction {
+  font-size: 17px;
+  color: #1a1a1a;
+  margin-bottom: 16px;
+  line-height: 1.5;
+}
+
+.highlight-red {
+  color: #d32f2f;
+}
+
+.deck-prompt {
+  font-size: 16px;
+  color: #1a1a1a;
+  margin-bottom: 10px;
+}
+
+.deck-list {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-bottom: 24px;
+}
+
+.deck-link {
+  color: #2f5fd8;
+  font-weight: 700;
+  font-size: 18px;
+  font-family: 'Montserrat', sans-serif;
+  text-decoration: none;
+}
+
+.deck-link:hover {
+  text-decoration: underline;
+}
+
+.cabin-type-list {
+  margin-top: 20px;
+}
+
+.cabin-type-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 0;
+}
+
+.cabin-type-row h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  color: #2b1a4a;
+  margin: 0;
+}
+
+.cabin-select-btn {
+  background-image: linear-gradient(#4a90d9, #3fadff);
+  color: #fff;
+  border: none;
+  padding: 10px 24px;
+  font-weight: 600;
+  border-radius: 4px;
+  cursor: pointer;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.cabin-type-divider {
+  border: none;
+  border-top: 1px solid #d8cbb0;
+  margin: 0;
+}
+
+.deck-instruction {
+  font-size: 14px;
+  color: #333;
+  margin-bottom: 8px;
+}
+
+.deck-map-wrapper {
+  max-width: 280px;
+  margin-bottom: 30px;
+}
+
+.deck-map-header {
+  background: #1a1a3a;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+  font-weight: 700;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.deck-map-header span {
+  font-weight: 400;
+  font-size: 13px;
+}
+
+.deck-map-svg-container {
+  background: #fff;
+  border: 1px solid #ccc;
+  position: relative;
+  aspect-ratio: 1 / 2.2;
+  width: 100%;
+}
+
+.deck-map-svg-container svg {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+.cabin-dot {
+  cursor: pointer;
+  stroke: #333;
+  stroke-width: 0.5;
+  transition: opacity 0.2s;
+}
+
+.cabin-dot:hover {
+  opacity: 0.7;
+}
+
+.cabin-dot.sold {
+  fill: #999 !important;
+  cursor: not-allowed;
+}
+
+.cabin-dot.window { fill: #a8c8e8; }
+.cabin-dot.balcony { fill: #b5d8b5; }
+.cabin-dot.aurea { fill: #e8b5d8; }
+
+.deck-legend {
+  margin-top: 12px;
+  background: #1a1a3a;
+  color: #fff;
+  padding: 12px;
+  font-size: 12px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.cabin-modal-overlay {
+  position: fixed;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: rgba(0,0,0,0.5);
+  z-index: 9999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.cabin-modal {
+  background: #fff;
+  border-top: 4px solid #a93226;
+  max-width: 500px;
+  width: 100%;
+  padding: 20px 24px;
+  border-radius: 2px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.3);
+}
+
+.cabin-modal-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 12px;
+}
+
+.cabin-modal-header h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 22px;
+  color: #2b1a4a;
+  margin: 0;
+  padding-right: 20px;
+}
+
+.cabin-modal-close {
+  font-size: 24px;
+  color: #999;
+  cursor: pointer;
+  line-height: 1;
+  flex-shrink: 0;
+}
+
+.cabin-modal-close:hover {
+  color: #333;
+}
+
+.cabin-modal-price {
+  font-size: 15px;
+  color: #1a1a1a;
+  margin-bottom: 16px;
+}
+
+.cabin-modal-price strong {
+  font-weight: 700;
+}
+
+.cabin-modal-price span {
+  color: #d2691e;
+  font-weight: 600;
+}
+
+.summary-total {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 28px;
+  font-weight: 700;
+  color: #2b1a4a;
+  margin-bottom: 24px;
+}
+
+#pay-now-btn {
+  width: 100%;
+  max-width: 300px;
+  border: none;
+  cursor: pointer;
+  margin-bottom: 16px;
+}
+
+#pay-now-btn:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.cabin-modal-divider {
+  border: none;
+  border-top: 1px solid #e0e0e0;
+  margin-bottom: 16px;
+}
+
+.cabin-modal-add-btn {
+  background-image: linear-gradient(#4a90d9, #3fadff);
+  color: #fff;
+  border: none;
+  padding: 12px 24px;
+  font-size: 15px;
+  font-weight: 600;
+  border-radius: 4px;
+  cursor: pointer;
+  font-family: 'Montserrat', sans-serif;
+}
+
+@media (max-width: 480px) {
+  .cabin-modal {
+    padding: 16px 18px;
+  }
+  .cabin-modal-header h2 {
+    font-size: 18px;
+  }
+}
+
+.deck-legend strong {
+  display: block;
+  margin-bottom: 8px;
+}
+
+.deck-legend div {
+  margin-bottom: 4px;
+}
+
+.cabin-detail-list {
+  border-top: 1px solid #d8cbb0;
+  padding-top: 20px;
+}
+
+.cabin-entry {
+  padding: 12px 0;
+  border-bottom: 1px solid #e0d5c0;
+  cursor: pointer;
+}
+
+.cabin-entry-title {
+  color: #2f5fd8;
+  font-weight: 700;
+  font-size: 16px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.cabin-entry-title:hover {
+  text-decoration: underline;
+}
+
+.cabin-entry-category {
+  color: #d2691e;
+  font-size: 12px;
+  font-weight: 600;
+  margin: 2px 0;
+}
+
+.cabin-entry-price {
+  font-size: 13px;
+  color: #333;
+}
+
+.confirmation-icon {
+  font-size: 60px;
+  color: #2e8b57;
+  margin-bottom: 16px;
+}
+
+.confirmation-subtitle {
+  font-size: 16px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.confirmation-details {
+  text-align: left;
+  max-width: 360px;
+  margin: 0 auto 24px;
+}
+
+.confirmation-note {
+  font-size: 14px;
+  color: #555;
+  margin: 20px 0;
+}
+
+.deck-timer-note {
+  font-size: 12px;
+  color: #666;
+  margin-top: 16px;
+}
+
+@media (min-width: 900px) {
+  .deck-layout {
+    display: flex;
+    gap: 40px;
+    align-items: flex-start;
+  }
+  .deck-map-wrapper {
+    flex: 0 0 300px;
+  }
+  .cabin-detail-list {
+    flex: 1;
+    max-height: 750px;
+    overflow-y: auto;
+    border-top: none;
+    padding-top: 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .cabin-type-row {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+  .cabin-type-row h3 {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .booking-content {
+    flex-direction: column;
+  }
+  .booking-card h1 {
+    font-size: 24px;
+  }
+  .guest-count-buttons {
+    gap: 8px;
+  }
+  .guest-btn {
+    padding: 10px 16px;
+    font-size: 14px;
+  }
+}

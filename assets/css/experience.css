@@ -1,0 +1,105 @@
+.subheader-art {
+  min-height: 500px;
+  position: relative;
+}
+
+.subheader-bg {
+  position: absolute;
+  inset: 0;
+  background-image: url('https://suiterifeondeck.com/wp-content/uploads/2026/07/srod2027-subheader-bkg-1.webp');
+  background-size: cover;
+  background-position: center;
+}
+
+@media (max-width: 768px) {
+  .subheader-art { min-height: 300px; }
+}
+
+#experience-page {
+  background: #fff;
+}
+
+.exp-section {
+  padding: 60px 20px;
+}
+
+.exp-section-alt {
+  background-color: #f2e8d5;
+}
+
+.exp-section .wrapper {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.exp-heading {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 32px;
+  color: #1a1a3a;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.exp-row {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.exp-text {
+  flex: 1;
+  min-width: 280px;
+  font-size: 16px;
+  line-height: 1.6;
+  color: #333;
+}
+
+.exp-img {
+  flex: 1;
+  min-width: 280px;
+  max-width: 500px;
+  width: 100%;
+  height: auto;
+  border-radius: 4px;
+}
+
+.exp-itinerary-line {
+  text-align: center;
+  font-weight: 600;
+  color: #1a1a3a;
+  margin-bottom: 16px;
+}
+
+.itinerary-days {
+  display: flex;
+  gap: 16px;
+  overflow-x: auto;
+  margin-top: 30px;
+  padding-bottom: 10px;
+}
+
+.itinerary-day {
+  flex: 0 0 160px;
+  background: #1a1a3a;
+  color: #fff;
+  text-align: center;
+  padding: 20px 10px;
+  border-radius: 4px;
+}
+
+.itinerary-day h3 {
+  font-family: 'Montserrat', sans-serif;
+  margin: 0 0 6px;
+}
+
+.itinerary-day p {
+  margin: 0;
+  font-size: 14px;
+}
+
+@media (max-width: 768px) {
+  .exp-row { flex-direction: column; }
+  .exp-heading { font-size: 24px; }
+}

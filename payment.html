@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Payment | Suite Rife On Deck</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com/">
+  <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+  <link href="https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:700" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.7.2/css/all.min.css">
+
+  <link rel="stylesheet" href="assets/vendors/elementor-icons.css">
+  <link rel="stylesheet" href="assets/vendors/elementor-frontend.css">
+  <link rel="stylesheet" href="assets/vendors/magnific-popup.css">
+  <link rel="stylesheet" href="assets/css/vendors.css">
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <link rel="stylesheet" href="assets/css/blocks.css">
+  <link rel="stylesheet" href="assets/css/custom-styles.css">
+  <link rel="stylesheet" href="assets/css/booking.css">
+</head>
+<body>
+
+  <!-- Paste your header here -->
+
+  <main id="booking-page">
+    <section class="booking-card">
+      <div class="wrapper">
+        <h1>Suite Rife on Deck 2027: Payment</h1>
+
+        <nav class="booking-steps">
+          <span class="step">Cabin Selection</span>
+          <span class="step-arrow">➤</span>
+          <span class="step">Guests</span>
+          <span class="step-arrow">➤</span>
+          <span class="step active">Payment</span>
+          <span class="step-arrow">➤</span>
+          <span class="step">Confirmation</span>
+        </nav>
+        <hr class="booking-divider" />
+
+        <div class="booking-content">
+          <aside class="booking-sidebar">
+            <h2>Suite Rife on Deck 2027</h2>
+            <p class="ship-name">MSC Poesia</p>
+            <p class="cruise-dates">February 10, 2027 - February 14, 2027</p>
+          </aside>
+
+          <div class="booking-main">
+            <p class="summary-label">Guests <span id="summary-guests"></span></p>
+            <p class="summary-label">Cabin Details</p>
+            <p class="summary-cabin" id="summary-cabin"></p>
+            <hr class="booking-divider-light" />
+            <p class="summary-label">Total Amount</p>
+            <p class="summary-total" id="summary-total"></p>
+
+            <div id="payment-error" class="auth-error" style="display:none;"></div>
+
+            <button type="button" class="button lg-bttn" id="pay-now-btn">Pay Now</button>
+            <a href="booking.html" class="cancel-link">Cancel and go back</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Paste your footer here -->
+
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+  <script src="assets/js/supabase-client.js"></script>
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+  <script src="assets/js/payment.js"></script>
+</body>
+</html>

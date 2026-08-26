@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Start Reservation</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com/">
+  <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+  <link href="https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:700" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.7.2/css/all.min.css">
+
+  <!-- Theme core CSS -->
+  <link rel="stylesheet" href="assets/vendors/elementor-icons.css">
+  <link rel="stylesheet" href="assets/vendors/elementor-frontend.css">
+  <link rel="stylesheet" href="assets/vendors/magnific-popup.css">
+  <link rel="stylesheet" href="assets/css/vendors.css">
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <link rel="stylesheet" href="assets/css/blocks.css">
+  <link rel="stylesheet" href="assets/css/custom-styles.css">
+
+  <!-- Page-specific styles for login -->
+  <link rel="stylesheet" href="assets/css/booking.css">
+</head>
+<body>
+    
+  <main id="booking-page">
+    <section id="booking-hero">
+    <img src="assets/images/hero/header.jpg" alt="Suite Rife On Deck" id="booking-logo" />
+    </section>
+  <!-- SCREEN 1: Guest Count -->
+  <section class="booking-card" id="screen-guests">
+    <div class="wrapper">
+      <h1>Suite Rife on Deck 2027</h1>
+
+      <nav class="booking-steps">
+        <span class="step active">Cabin Selection</span>
+        <span class="step-arrow">➤</span>
+        <span class="step">Guests</span>
+        <span class="step-arrow">➤</span>
+        <span class="step">Payment</span>
+        <span class="step-arrow">➤</span>
+        <span class="step">Confirmation</span>
+      </nav>
+
+      <hr class="booking-divider" />
+
+      <div class="booking-content">
+        <aside class="booking-sidebar">
+          <h2>Suite Rife on Deck 2027</h2>
+          <p class="ship-name">MSC Poesia</p>
+          <p class="cruise-dates">February 10, 2027 - February 14, 2027</p>
+        </aside>
+
+        <div class="booking-main">
+          <p class="booking-notice"><strong>Suite Rife on Deck is an 18+ event, and at least one person per cabin must be 21 or older.</strong></p>
+          <p class="booking-prompt">Please select the number of guests for your reservation:</p>
+          <hr class="booking-divider-light" />
+
+          <div class="guest-count-buttons" id="guest-count-buttons">
+            <button type="button" class="button guest-btn" data-guests="1">1 Guest</button>
+            <button type="button" class="button guest-btn" data-guests="2">2 Guests</button>
+            <button type="button" class="button guest-btn" data-guests="3">3 Guests</button>
+            <button type="button" class="button guest-btn" data-guests="4">4 Guests</button>
+          </div>
+
+          <p class="booking-alt-text">If you have already booked a reservation and are returning to pay a balance, please use the button below.</p>
+          <a href="#" class="button" id="your-reservations-btn">Your Reservations</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SCREEN 2: Cabin Category Selection -->
+  <section class="booking-card" id="screen-categories" style="display:none;">
+    <div class="wrapper">
+      <h1>Suite Rife on Deck 2027: Available Categories</h1>
+
+      <nav class="booking-steps">
+        <span class="step active">Cabin Selection</span>
+        <span class="step-arrow">➤</span>
+        <span class="step">Guests</span>
+        <span class="step-arrow">➤</span>
+        <span class="step">Payment</span>
+        <span class="step-arrow">➤</span>
+        <span class="step">Confirmation</span>
+      </nav>
+
+      <hr class="booking-divider" />
+
+      <div class="booking-content">
+        <aside class="booking-sidebar">
+          <h2>Suite Rife on Deck 2027</h2>
+          <p class="ship-name">MSC Poesia</p>
+          <p class="cruise-dates">February 10, 2027 - February 14, 2027</p>
+          <a href="#" class="start-over-link" id="start-over-btn">Start Over</a>
+        </aside>
+
+        <div class="booking-main">
+          <p class="booking-instruction">
+            <strong class="highlight-red">**If you know what cabin number you want to book</strong>, it is quicker to choose the deck number below and then select your cabin on the interactive map.
+          </p>
+          <p class="booking-instruction">
+            <strong class="highlight-red">**If you aren't sure what cabin to book</strong>, select a cabin type listed below the deck numbers to read the cabin descriptions. Then view the interactive deck maps to explore and pick your cabin.
+          </p>
+
+          <p class="deck-prompt">Select the deck number below:</p>
+
+          <div class="deck-list" id="deck-list">
+            <a href="#" class="deck-link" data-deck="5">Deck 5</a>
+            <a href="#" class="deck-link" data-deck="8">Deck 8</a>
+            <a href="#" class="deck-link" data-deck="9">Deck 9</a>
+            <a href="#" class="deck-link" data-deck="10">Deck 10</a>
+            <a href="#" class="deck-link" data-deck="11">Deck 11</a>
+            <a href="#" class="deck-link" data-deck="12">Deck 12</a>
+            <a href="#" class="deck-link" data-deck="14">Deck 14</a>
+          </div>
+
+          <div class="cabin-type-list" id="cabin-type-list">
+            <div class="cabin-type-row">
+              <h3>Window Cabins</h3>
+              <button type="button" class="button cabin-select-btn" data-cabin="window">Select</button>
+            </div>
+            <hr class="cabin-type-divider" />
+
+            <div class="cabin-type-row">
+              <h3>Balcony Cabins</h3>
+              <button type="button" class="button cabin-select-btn" data-cabin="balcony">Select</button>
+            </div>
+            <hr class="cabin-type-divider" />
+
+            <div class="cabin-type-row" id="aurea-suite-row" style="display:none;">
+              <h3>Aurea Suites</h3>
+              <button type="button" class="button cabin-select-btn" data-cabin="aurea">Select</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- SCREEN 3: Deck Cabin Selection -->
+<section class="booking-card" id="screen-deck" style="display:none;">
+  <div class="wrapper">
+    <h1>Suite Rife on Deck 2027: Available Cabins</h1>
+
+    <nav class="booking-steps">
+      <span class="step active">Cabin Selection</span>
+      <span class="step-arrow">➤</span>
+      <span class="step">Guests</span>
+      <span class="step-arrow">➤</span>
+      <span class="step">Payment</span>
+      <span class="step-arrow">➤</span>
+      <span class="step">Confirmation</span>
+    </nav>
+    <hr class="booking-divider" />
+
+    <div class="booking-content deck-screen-content">
+      <aside class="booking-sidebar">
+        <h2>Suite Rife on Deck 2027</h2>
+        <p class="ship-name">MSC Poesia</p>
+        <p class="cruise-dates">February 10, 2027 - February 14, 2027</p>
+        <a href="#" class="start-over-link" id="start-over-btn-2">Start Over</a>
+      </aside>
+
+<div class="booking-main">
+  <p class="deck-instruction">Choose your cabin by clicking the cabin on the deck map or from the list to the side or below the deck map. Shaded cabins on the deck map mean the cabin is unavailable or sold.</p>
+  <p class="deck-instruction">After selecting your cabin, you will be on a timer and must submit payment before the timer expires.</p>
+
+  <div class="deck-layout">
+    <div class="deck-map-wrapper">
+      <div class="deck-map-header" id="deck-map-title">DECK 8<br><span id="deck-map-subtitle">TASSO</span></div>
+      <div class="deck-map-svg-container" id="deck-map-svg-container"></div>
+      <div class="deck-legend">
+        <strong>LEGEND</strong>
+        <div><span class="legend-icon sofa"></span> Sofa bed</div>
+        <div><span class="legend-icon double"></span> Double sofa bed</div>
+        <div><span class="legend-icon accessible"></span> Cabin for guests with disabilities</div>
+        <div><span class="legend-icon obstructed"></span> Cabin with obstructed view</div>
+      </div>
+    </div>
+
+    <div class="cabin-detail-list" id="cabin-detail-list"></div>
+  </div>
+
+  <p class="deck-timer-note">*Your room choice will be held for 10 minutes during the reservation process.</p>
+</div>
+    </div>
+  </div>
+</section>
+
+  <div id="cabin-modal-overlay" class="cabin-modal-overlay" style="display:none;">
+  <div class="cabin-modal">
+    <div class="cabin-modal-header">
+      <h2 id="cabin-modal-title"></h2>
+      <span class="cabin-modal-close" id="cabin-modal-close">&times;</span>
+    </div>
+    <p class="cabin-modal-price">
+      <strong id="cabin-modal-occupancy"></strong> <span id="cabin-modal-price"></span>
+    </p>
+    <hr class="cabin-modal-divider" />
+    <button type="button" class="button cabin-modal-add-btn" id="cabin-modal-add-btn">Add to Reservation</button>
+  </div>
+</div>
+</main>
+
+  <!-- Paste your existing <footer>...</footer> block here (same as index.html) -->
+   <footer id="main-footer" class="footer-page">
+        <img src="assets/images/hero/footer.png">
+   </footer>
+
+    <script src="assets/js/deck-data.js"></script>
+    <script src="assets/js/deck-render.js"></script>
+    <script src="assets/js/booking.js"></script>
+</body>
+</html>

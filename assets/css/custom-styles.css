@@ -1,0 +1,762 @@
+.hasBackground, .section1, .section2 {
+  background-size: contain;
+  background-position: center; }
+
+#social-bar {
+  background-color: #1b2b4f; }
+  #social-bar-inner a, #social-bar-inner a:visited {
+    color: #ffffff
+  }
+  #social-bar-inner a:hover {
+    color: #f9da20;
+  }
+
+#announcement-bar-inner {
+  background-color: #f9da20;
+}
+
+#announcement-text {
+  color: #0e224b;
+}
+
+figure#book-now-button .section-background {
+ url('https://suiterifeondeck.com/wp-content/uploads/2026/07/srod2027-button-bkg-1.webp')
+}
+
+#book-now-inner {
+  background-color: midnightblue;
+  background-image:linear-gradient(#f9da20,#ddb500); 
+}
+
+  #book-now-inner:hover {
+    background-color: #016c70;
+    background-image:linear-gradient(#ddb500,#f9da20); 
+  }
+
+  #book-now-inner #book-now-content * {
+    color: #ffffff; 
+  }
+
+  #book-now-inner #book-now-content *:hover {
+    color: #ffffff; }
+
+
+
+#info-pages nav,
+#info-pages form.search-form {
+  background-color: #2e3975;
+}
+
+#info-sidebar li.info-item {
+  background: #3357a7;
+  color: #ffffff;
+  border-bottom: 1px solid #ffffff;
+}
+
+#info-sidebar div.menu-title {
+  background: #2e3975;
+}
+
+#info-sidebar div.menu-title h3 {
+  color: #ffffff;
+}
+
+#info-sidebar .info-sub-menu li.info-item {
+  background: #e6e7e8;
+  color: #2e3975;
+}
+
+#info-sidebar a:hover {
+  color: #093956; }
+
+.modal-content {
+  background: #f9f3d9;
+  color: #003d5a;
+  border: 7px solid #fdbb40;
+  padding: 7px;
+}
+
+.modal-footer .btn-secondary {
+  background: #45bfb4;
+  color: #ffffff;
+}
+
+.modal-footer .btn-secondary:hover {
+  background: #009ea0;
+  color: #ffffff;
+}
+
+section#nav-bar {
+  background-color: #1b2b4f; }
+  #nav-bar li a, #nav-bar li a:visited {
+    color: #ffffff; }
+  #nav-bar li a:hover {
+    color: #f9da20; }
+  #nav-bar .menu-item-has-children ul li {
+    background-color:#f15d31; }
+  #nav-bar .menu-item-has-children ul li:hover {
+    background-color:#f15d31 }
+  #nav-bar .menu-item-has-children::after {
+    color: #ffffff; }
+  #nav-bar .button {
+    color: #1b2b4f; }
+  #nav-bar .button:hover {
+    color: #ffffff; }
+  #nav-bar a,
+  #nav-bar i {
+    color: #ffffff; }
+  #nav-bar a:hover {
+    color: #f9da20; }
+  #nav-bar .side-menu-bttn:hover h5,
+  #nav-bar .side-menu-bttn:hover i  {
+    color: #f9da20; }
+  #nav-book-now a {
+    font-family:;
+    font-size: px; }
+  #nav-book-now a, #nav-book-now a:visited {
+    color: ; }
+  #nav-book-now a:hover, #nav-book-now a:active {
+    color: ; }
+  #nav-book-now a, #nav-book-now a:visited {
+    background: ; }
+  #nav-book-now a:hover, #nav-book-now a:active {
+    background: ; }
+
+@media screen and (max-width:1100px) {
+  #nav-sub { display: none; }
+}
+
+@media screen and (max-width:975px) {
+  #nav-bar #nav-logo { display: none; }
+
+  #side-menu-bttn { display: flex; }
+}
+
+section#header-art {
+  background-color: #1b2b4f; }
+
+.section1 #page-nav a,
+.section1 #page-nav-title {
+  background: #3fadff;
+  color: #ffffff; }
+  .section1 #page-nav a:hover,
+  .section1 #page-nav-title.active {
+    background: #0b2745;
+    color: #ffffff; }
+  .section1 #page-nav a {
+    border: 1px solid #ffffff;
+    border-left: 0px; }
+  .section1 #page-nav a:first-child {
+    border-left: 1px solid #ffffff; }
+
+.section2 #page-nav a,
+.section2 #page-nav-title {
+  background: #3fadff;
+  color: #ffffff; }
+  .section2 #page-nav a:hover,
+  .section2 #page-nav-title.active {
+    background: #0b2745;
+    color: #ffffff; }
+  .section2 #page-nav a {
+    border: 1px solid #ffffff;
+    border-left: 0px; }
+  .section2 #page-nav a:first-child {
+    border-left: 1px solid #ffffff; }
+  .section2 #page-nav-title {
+    border-bottom: 1px solid #ffffff;
+  }
+
+#footer-social-bar form input[type="submit"],
+#fp-newsletter-inner input[type="submit"],
+#side-menu-cta .button,
+#side-menu input[type="submit"],
+#accept-gdpr,
+#decline-gdpr,
+form select,
+#fp-button-inner {
+  background-image:linear-gradient(#298e87,#43bcb7);
+  color: #ffffff;
+}
+
+#fp-button-inner .button {
+  color: #ffffff;
+}
+
+#fp-button-inner .button:hover {
+  color: #093956;
+}
+
+#footer-social-bar form input[type="submit"]:hover,
+#fp-newsletter-inner input[type="submit"]:hover,
+#side-menu-cta .button:hover,
+#accept-gdpr:hover,
+form select:hover {
+  color: #093956;
+}
+
+section#side-menu a, section#side-menu i {
+  color: #ffffff; }
+  section#side-menu a:hover, section#side-menu i:hover {
+    color: #fcb456; }
+  section#side-menu {
+    background-color: #1e4a79; }
+  section#side-menu a.active {
+    color: #fcb456; }
+  section#side-menu a {
+    font-size: 30px; }
+  section#side-menu li.menu-item-has-children ul a {
+    font-size: px; }
+  section#side-menu #nav-bottom h3 {
+    color: #ffffff; }
+  section#side-menu #nav-bottom input[type="submit"] {
+    color: #ffffff;
+    background: #f68a51; }
+  section#side-menu #nav-bottom input[type="submit"]:hover {
+    color: #ffffff;
+    background: #f68a51; }
+  section#side-menu #nav-logo img {
+    width: 350px;
+    }
+
+#hero-title-bg {
+  background-color: ; }
+  #hero-title h1 {
+    color: #ffffff;
+    font-size: 60px; }
+
+.defaultSection .section-background{
+  background-image: url(""); }
+  .defaultSection h1 {
+    color: ; }
+  .defaultSection h2 {
+    color: ; }
+  .defaultSection h3 {
+    color: ; }
+  .defaultSection h4 {
+    color: ; }
+  .defaultSection h5 {
+    color: ; }
+  .defaultSection p, .defaultSection li {
+    color: ; }
+  .defaultSection a {
+    color: ; }
+  .defaultSection a:hover {
+    color: ; }
+
+  .defaultSection .button,
+  .defaultSection .wp-block-button__link {
+    background-image: linear-gradient(#f15d31, #f28260); }
+  .defaultSection .button,
+  .defaultSection .wp-block-button__link {
+    color: ; }
+  .defaultSection .button:hover,
+  .defaultSection .wp-block-button__link:hover {
+    color: ; }
+  .defaultSection #page-nav a,
+  .defaultSection nav#page-nav a{
+    color: ; }
+  .defaultSection #page-nav span,
+  .defaultSection nav#page-nav span,
+  .defaultSection .scroll-to {
+    color: ; }
+  .defaultSection #page-nav a:hover,
+  .defaultSection nav#page-nav a:hover {
+    color: ; }
+
+  .defaultSection #cabin-info-content,
+  .defaultSection #cabin-info-content p,
+  .defaultSection #cabin-info-content span {
+    color: ;
+  }
+
+  .defaultSection #cabin-info-content a {
+    color: ; }
+  .defaultSection #cabin-info-content a:hover {
+    color: ; }
+
+.single-post .section-background{
+  background-image: url(""); }
+  .single-post .content-wrapper h1 {
+    color: ; }
+  .single-post .content-wrapper h2 {
+    color: ; }
+  .single-post .content-wrapper h3 {
+    color: ; }
+  .single-post .content-wrapper h4 {
+    color: ; }
+  .single-post .content-wrapper h5 {
+    color: ; }
+  .single-post .content-wrapper p {
+    color: ; }
+
+  .defaultSection .button,
+  .defaultSection form input[type="submit"] {
+    background-image: linear-gradient(#f15d31, #f28260); }
+  .defaultSection .button,
+  .defaultSection form input[type="submit"] {
+    color: ; }
+  .defaultSection .button:hover,
+  .defaultSection form input[type="submit"]:hover {
+    color: ; }
+
+.section1 .section-background{
+  background: #fff8d9;
+  background-image: url("https://suiterifeondeck.com/wp-content/uploads/2026/07/srod2027-textures-rev5.webp"); }
+  .section1 h1 {
+    color: #112752; }
+  .section1 h2 {
+    color: #34495e; }
+  .section1 h3 {
+    color: #112752; }
+  .section1 h4 {
+    color: #34495e; }
+  .section1 h5 {
+    color: #112752; }
+  .section1 p, .section1 li {
+    color: #111111; }
+  .section1 p a,
+  .section1 li a {
+    color: #0066cc; }
+  .section1 p a:hover,
+  .section1 li a:hover {
+    color: #3fadff; }
+
+  .section1 .button,
+  .section1 form input[type="submit"],
+  .section1 .wp-block-button__link {
+    background-image: linear-gradient(#1e4a79, #3fadff); }
+  .section1 .button,
+  .section1 form input[type="submit"],
+  .section1 .wp-block-button__link {
+    color: #ffffff; }
+  .section1 .button:hover,
+  .section1 form input[type="submit"]:hover,
+  .section1 .wp-block-button__link:hover {
+    color: #ffffff; }
+
+  .section1 .scroll-to {
+    color: #009c69; }
+
+  .section1 #cabin-info-content,
+  .section1 #cabin-info-content p,
+  .section1 #cabin-info-content span {
+    color: #111111;
+  }
+
+  .section1 #cabin-info-content a {
+    color: #0066cc; }
+  .section1 #cabin-info-content a:hover {
+    color: #3fadff; }
+
+  .section1 .grid-item-inner {
+    border-color: #3fadff; }
+  .section1 .grid-item:not(.cta-item) .grid-item-title {
+    background-color: #3fadff; }
+
+.section2 .section-background {
+  background: #1e4a79;
+  background-image: url("https://suiterifeondeck.com/wp-content/uploads/2026/07/srod2027-textures-rev3-01.webp"); }
+  .section2 h1 {
+    color: #ff8d32; }
+  .section2 h2 {
+    color: #fcb456; }
+  .section2 h3 {
+    color: #fff8d9; }
+  .section2 h4 {
+    color: #fcb456; }
+  .section2 h5 {
+    color: #ff8d32; }
+  .section2 p, .section2 li {
+    color: #ffffff; }
+  .section2 p a,
+  .section2 li a {
+    color: #fcb456; }
+  .section2 p a:hover,
+  .section2 li a:hover {
+    color: #ff8d32; }
+  .section2 .button,
+  .section2 form input[type="submit"],
+  .section2 .wp-block-button__link {
+    background-image: linear-gradient(#ff8d32, #fcb456); }
+  .section2 .button,
+  .section2 form input[type="submit"],
+  .section2 .wp-block-button__link {
+    color: #ffffff; }
+  .section2 .button:hover,
+  .section2 form input[type="submit"]:hover,
+  .section2 .wp-block-button__link:hover {
+    color: #ffffff; }
+
+  .section2 #page-nav a {
+    color: #cae8e2; }
+  .section2 .scroll-to {
+    color: #cae8e2; }
+
+  .section2 #cabin-info-content,
+  .section2 #cabin-info-content p,
+  .section2 #cabin-info-content span {
+    color: #ffffff;
+  }
+
+  .section2 #cabin-info-content a {
+    color: #fcb456; }
+  .section2 #cabin-info-content a:hover {
+    color: #ff8d32; }
+
+  .section2 .grid-item-inner {
+    border-color: #ffce00; }
+  .section2 grid-item:not(.cta-item) .grid-item-title {
+    background-color: #ffce00; }
+
+ .component .button {
+  background-image: linear-gradient(, );
+  color: ; }
+   .component .button:hover {
+    color: ; }
+   .component .content p,
+   .component .content li {
+    color: ; }
+   .component .button-container a {
+    color: ; }
+   .component .button-container a:hover {
+    color: ; }
+   .component .button-container a:visited {
+    color: ; }
+   .component .content {
+    background-color: ; }
+
+   .component.style1 .button {
+    background-image: linear-gradient(#1e4a79, #3fadff);
+    color: #ffffff; }
+     .component.style1 .button:hover {
+      color: #ffffff; }
+     .component.style1 .component-inner p,
+     .component.style1 .component-inner li {
+      color: #000000; }
+     .component.style1 .button-container a {
+      color: #ffffff; }
+     .component.style1 .button-container a:hover {
+      color: #ffffff; }
+     .component.style1 .button-container a:visited {
+      color: #ffffff; }
+     .component.style1 .component-inner {
+      background-color: #fff8e8; }
+     .component.style1 .component-inner.img-left-align,
+     .component.style1 .component-inner.img-right-align {
+      background-color: #fff8e8; }
+     .component.style1 h1 {
+      color: #112752 ; }
+       .component.style1 h2 {
+        color: #34495e ; }
+         .component.style1 h3 {
+          color: #112752 ; }
+           .component.style1 h4 {
+            color: #34495e ; }
+             .component.style1 h5 {
+              color: #112752 ; }
+     .component.style1 .component-inner a {
+      color: #1e4a79; }
+       .component.style1 .component-inner a:hover {
+        color: #3fadff; }
+     .component.style2 .button {
+      background-image: linear-gradient(#ff8d32, #fcb456);
+      color: #ffffff; }
+     .component.style2 .button:hover {
+      color: #ffffff; }
+     .component.style2 .component-inner p,
+     .component.style2 .component-inner li {
+      color: #ffffff; }
+     .component.style2 .button-container a {
+      color: #ffffff; }
+     .component.style2 .button-container a:hover {
+      color: #ffffff; }
+     .component.style2 .button-container a:visited {
+      color: #ffffff; }
+     .component.style2 .component-inner {
+      background-color: #1e4a79; }
+     .component.style2 .component-inner.img-left-align,
+     .component.style2 .component-inner.img-right-align {
+      background-color: #1e4a79; }
+     .component.style2 h1 {
+      color: #fff8d9 ; }
+       .component.style2 h2 {
+        color: #fcb456 ; }
+         .component.style2 h3 {
+          color: #fff8d9 ; }
+           .component.style2 h4 {
+            color: #ff8d32 ; }
+             .component.style2 h5 {
+              color: #fcb456 ; }
+     .component.style2 .component-inner a {
+      color: #fcb456; }
+       .component.style2 .component-inner a:hover {
+        color: #ff8d32; }
+
+    .post-type-info.comp-1-style .button {
+     background-image: linear-gradient(#1e4a79, #3fadff);
+     color: #ffffff; }
+      .post-type-info.comp-1-style .button:hover {
+       color: #ffffff; }
+      .post-type-info.comp-1-style .component-inner p,
+      .post-type-info.comp-1-style .component-inner li {
+       color: #000000; }
+      .post-type-info.comp-1-style .button-container a {
+       color: #ffffff; }
+      .post-type-info.comp-1-style .button-container a:hover {
+       color: #ffffff; }
+      .post-type-info.comp-1-style .button-container a:visited {
+       color: #ffffff; }
+      .post-type-info.comp-1-style  {
+       background-color: #fff8e8; }
+      .post-type-info.comp-1-style h1 {
+       color: #112752 ; }
+        .post-type-info.comp-1-style h2 {
+         color: #34495e ; }
+          .post-type-info.comp-1-style h3 {
+           color: #112752 ; }
+            .post-type-info.comp-1-style h4 {
+             color: #34495e ; }
+              .post-type-info.comp-1-style h5 {
+               color: #112752 ; }
+      .post-type-info.comp-1-style .component-inner a {
+       color: #1e4a79; }
+        .post-type-info.comp-1-style  .component-inner a:hover {
+         color: #3fadff; }
+      .post-type-info.comp-1-style .component.style1 .component-inner,
+      .post-type-info.comp-1-style .component.style2 .component-inner {
+        background: transparent; }
+
+      .post-type-info.comp-2-style .button {
+       background-image: linear-gradient(#ff8d32, #fcb456);
+       color: #ffffff; }
+      .post-type-info.comp-2-style .button:hover {
+       color: #ffffff; }
+      .post-type-info.comp-2-style .component-inner p,
+      .post-type-info.comp-2-style .component-inner li {
+       color: #ffffff; }
+      .post-type-info.comp-2-style .button-container a {
+       color: #ffffff; }
+      .post-type-info.comp-2-style .button-container a:hover {
+       color: #ffffff; }
+      .post-type-info.comp-2-style .button-container a:visited {
+       color: #ffffff; }
+      .post-type-info.comp-2-style  {
+       background-color: #1e4a79; }
+      .post-type-info.comp-2-style h1 {
+       color: #fff8d9 ; }
+        .post-type-info.comp-2-style h2 {
+         color: #fcb456 ; }
+          .post-type-info.comp-2-style h3 {
+           color: #fff8d9 ; }
+            .post-type-info.comp-2-style h4 {
+             color: #ff8d32 ; }
+              .post-type-info.comp-2-style h5 {
+               color: #fcb456 ; }
+      .post-type-info.comp-2-style .component-inner a {
+       color: #fcb456; }
+        .post-type-info.comp-2-style .component-inner a:hover {
+         color: #ff8d32; }
+     .post-type-info.comp-2-style .component.style1 .component-inner,
+     .post-type-info.comp-2-style .component.style2 .component-inner {
+       background: transparent; }
+
+#fp-newsletter-inner,
+.countdown-box {
+  background-color: #093956; }
+
+.cta-inner {
+  border: #f15d31 10px solid; }
+
+.cta-title {
+  background-color: #f15d31; }
+
+.page-template-pricing .info-box {
+  background-color: #ffffff; }
+
+.pt-cell.odd {
+  background-color: #ffffff; }
+
+.pt-cell.even {
+  background-color: #d8ecff; }
+
+.pt-row:hover .pt-cell:not(.pt-header):not(.dropdown-container) {
+  background-color: #fcb456; }
+
+.pt-cell[data-active="yes"]:not(.dropdown-container) {
+  background-color: #fcb456; }
+
+.pt-cell.has-link:hover {
+  background-color: #f68a51;
+}
+
+.pt-cell.has-link a:hover {
+  color: #ffffff;
+  background-color: #f68a51;
+}
+
+#pricing-wrap .dropdown-container {
+  background-color: #ffffff; }
+  #pricing-wrap .bookNow-bttn {
+    background-image: linear-gradient(#1e4a79,#3fadff); }
+  #pricing-wrap .bookNow-bttn:hover {
+    color: #ffffff; }
+  #pricing-wrap .moreInfo-bttn {
+    background-image: linear-gradient(#1e4a79,#3fadff); }
+  #pricing-wrap .moreInfo-bttn:hover {
+    color: #ffffff; }
+  #pricing-wrap .badge {
+    background-color: #dd3333;
+    color: #ffffff; }
+
+#pricing-slideout {
+  background-color: #ffffff; }
+  #pricing-slideout .button-container .button {
+    background-image: linear-gradient(#1e4a79,#3fadff);
+    color: #ffffff; }
+  #pricing-slideout .button-container .button:hover {
+    color: #ffffff; }
+  #pricing-slideout .moreInfo-bttn {
+    background-image: linear-gradient(#1e4a79,#3fadff);
+    color: #ffffff; }
+  #pricing-slideout .moreInfo-bttn:hover {
+    color: #ffffff; }
+  #pricing-slideout .badge {
+    background-color: #dd3333;
+    color: #ffffff; }
+
+  @media screen and (max-width:700px) {
+    .pricing-table .pt-header h4 {
+      font-size:16px;
+    }
+    .pt-cell:not(.pt-header):not(.dropdown-container) {
+      font-size:14px !important;
+    }
+  }
+
+#highlights-filter-inner ul {
+  background-color:#f15d31; }
+  #highlights-filter-inner li {
+    font-size: 14px; }
+  #highlights-filter-inner li:hover {
+    background-color:#f15d31; }
+
+#highlight-cards .card {
+  background-color: #1e4a79; }
+
+  #highlight-cards .tabs a {
+    color: #fff8d9; }
+
+#faq-filters a {
+  border-color: #f15d31;
+  color: #f15d31; }
+  #faq-filters a.active {
+    background-color: #f15d31;
+    color: #ffffff; }
+  #faq-filters a::after {
+    border-top-color: #f15d31; }
+
+.faq-row {
+  background-color: #ffffff; }
+
+.faq-row.alt {
+  background-color: #d8ecff; }
+
+.faq-row:hover {
+  background-color: #fcb456; }
+
+.deck-plans-nav-box {
+  border-color: #f15d31; }
+.deck-plans-nav-box:first-of-type {
+  border-color: #f15d31; }
+.deck-plans-nav-box.active {
+  background-color: #f15d31;
+  color: #ffffff; }
+
+#deck-plans-nav-mobile ul {
+  background-color:#f15d31; }
+  #deck-plans-nav-mobile li {
+    font-size: 14px; }
+  #deck-plans-nav-mobile li:hover {
+    background-color:#f15d31; }
+
+footer {
+  background-color:#0b2745; }
+  footer a, footer a:visited, #footer-submenu, #footer-submenu a, #footer-submenu a:visited {
+    color: #ffffff; }
+  footer a:hover, #footer-submenu a:hover {
+    color: #fcb456; }
+  #footer-cta a {
+    background-image: linear-gradient(, );
+    color: ; }
+    #footer-cta a:hover {
+      background: ; }
+
+.schedule-col-dropdown ul {
+  background-color:#f15d31; }
+  .schedule-col-dropdown li {
+    font-size: 14px; }
+  .schedule-col-dropdown li:hover {
+    background-color:#f15d31; }
+  .schedule-col-dropdown li {
+    color: #ffffff;
+  }
+
+h1 {
+  font-size: 43px; }
+h2 {
+  font-size: 35px; }
+h3 {
+  font-size: 30px; }
+h4 {
+  font-size: 22px; }
+h5 {
+  font-size: 20px; }
+p,span,li {
+  font-size: 22px; }
+
+
+
+
+
+
+h1, h2, h3, h4, h5,
+.menu-item, #highlights-filter-inner li,
+h1 a, h2 a, h3 a, h4 a, h5 a, label, select
+ {
+  font-family: nexa-rust-slab-black-2;
+  font-weight: 900; }
+
+
+
+.button,
+.button a,
+#announcement-text,
+#announcement-text a,
+#social-bar-customer-support span,
+#fp-countdown h3,
+#fp-countdown .countdown-box,
+#footer-menu a,
+#footer-social-bar input::placeholder,
+#footer-social-bar input[type='submit'],
+#footer-submenu,
+#page-nav span,
+#page-nav a,
+.mc4wp-form input[type='submit'],
+#highlights-wrap .scroll-to,
+#highlights-filter .button,
+#highlights-filter .button a,
+#info-sidebar *,
+input,
+input::placeholder,
+input[type="submit"] {
+  font-family: vinyl;
+  font-weight: 400; }
+
+
+
+p, ul, span, a, #footer-submenu, .wpcf7-response-output,
+#cabin-info-content,
+#cabin-info-content li,
+#cabin-info-content li a {
+  font-family: korolev;
+  font-weight: 500; }

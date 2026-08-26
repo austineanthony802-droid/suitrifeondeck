@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Register</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com/">
+  <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+  <link href="https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:700" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.7.2/css/all.min.css">
+
+  <!-- Theme core CSS -->
+  <link rel="stylesheet" href="assets/vendors/elementor-icons.css">
+  <link rel="stylesheet" href="assets/vendors/elementor-frontend.css">
+  <link rel="stylesheet" href="assets/vendors/magnific-popup.css">
+  <link rel="stylesheet" href="assets/css/vendors.css">
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <link rel="stylesheet" href="assets/css/blocks.css">
+  <link rel="stylesheet" href="assets/css/custom-styles.css">
+
+  <!-- Page-specific styles for login -->
+  <link rel="stylesheet" href="assets/css/auth.css">
+</head>
+<body>
+
+  <!-- Paste your existing <header>...</header> block here (same as index.html) -->
+
+<main id="auth-page">
+  <section id="auth-hero">
+    <img src="assets/images/hero/c9header.jpg" alt="Suite Rife On Deck" id="auth-logo" />
+  </section>
+
+  <section id="register-section" class="auth-card">
+    <div class="wrapper">
+      <h1>Create a New Account</h1>
+      <p class="auth-subtitle">Personal Information</p>
+
+      <form id="register-form">
+        <div class="form-group">
+          <label for="register-email"><span class="required">*</span> Email</label>
+          <input type="email" id="register-email" name="email" required />
+        </div>
+
+        <div class="form-group">
+          <label for="register-first-name"><span class="required">*</span> Legal First Name</label>
+          <input type="text" id="register-first-name" name="first_name" required />
+        </div>
+
+        <div class="form-group">
+          <label for="register-last-name"><span class="required">*</span> Legal Last Name</label>
+          <input type="text" id="register-last-name" name="last_name" required />
+        </div>
+
+        <div class="form-group">
+          <label for="register-password"><span class="required">*</span> Password</label>
+          <input type="password" id="register-password" name="password" required minlength="6" />
+        </div>
+
+        <div id="register-error" class="auth-error" style="display:none;"></div>
+        <div id="register-success" class="auth-success" style="display:none;"></div>
+
+        <button type="submit" class="button reg-bttn">Register</button>
+      </form>
+    </div>
+  </section>
+</main>
+
+  <!-- Paste your existing <footer>...</footer> block here (same as index.html) -->
+   <footer id="main-footer" class="footer-page">
+        
+    </footer>
+
+  <!-- Supabase -->
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+  <script src="assets/js/supabase-client.js"></script>
+
+  <!-- Core scripts (jQuery, theme JS, etc.) -->
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-migrate/3.4.1/jquery-migrate.min.js"></script>
+  <script src="assets/vendors/scripts.js"></script>
+
+  <!-- Login logic -->
+  <script src="assets/js/auth.js"></script>
+</body>
+</html>
