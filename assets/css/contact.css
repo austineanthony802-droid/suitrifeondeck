@@ -1,0 +1,132 @@
+#contact-page {
+  background-color: #faf3d3;
+  background-repeat: repeat;
+}
+
+.contact-section {
+  padding: 50px 20px 80px;
+}
+
+.contact-section .wrapper {
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.contact-note {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  color: #1a1a3a;
+  margin-bottom: 16px;
+}
+
+.contact-hours-label {
+  font-weight: 700;
+  color: #1a1a3a;
+  margin-bottom: 4px;
+}
+
+.contact-hours {
+  font-weight: 700;
+  color: #1a1a3a;
+  margin-bottom: 4px;
+}
+
+.contact-subnote {
+  font-size: 14px;
+  color: #333;
+  margin: 16px 0 24px;
+}
+
+.contact-toggle {
+  background: #2e8b8b;
+  color: #fff;
+  border: none;
+  padding: 10px 24px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 15px;
+  cursor: pointer;
+  border-radius: 2px;
+  margin-bottom: 20px;
+}
+
+.contact-toggle i {
+  margin-left: 8px;
+}
+
+.contact-form {
+  text-align: left;
+}
+
+.contact-form label {
+  display: block;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 15px;
+  color: #1a1a3a;
+  margin: 16px 0 4px;
+}
+
+.contact-form .required {
+  font-weight: 400;
+  font-size: 13px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  display: block;
+  width: 100%;
+  max-width: 300px;
+  margin: 0 auto;
+  padding: 8px 10px;
+  border: 1px solid #999;
+  border-radius: 2px;
+  font-size: 14px;
+  box-sizing: border-box;
+  background: #fff;
+}
+
+.contact-form textarea {
+  max-width: 400px;
+  resize: vertical;
+}
+
+.contact-status {
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  margin: 16px 0;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+.contact-status.sending {
+  background: #eef4fb;
+  color: #1e4a79;
+}
+
+.contact-status.success {
+  background: #eafaf1;
+  color: #1e7e34;
+}
+
+.contact-status.error {
+  background: #fdecea;
+  color: #a93226;
+}
+
+#contact-submit-btn {
+  display: block;
+  margin: 20px auto 0;
+  border: none;
+  cursor: pointer;
+  padding: 10px 40px;
+}
+
+#contact-submit-btn:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
