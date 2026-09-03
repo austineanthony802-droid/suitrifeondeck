@@ -1,5 +1,11 @@
 const DECK_DATA = {
   1: { // 1 Guest
+    5: {
+      name: "Deck 5",
+      subtitle: "",
+      cabins: [],
+      message: "Deck 5 has been completely booked."
+    },
     8: {
       name: "Deck 8",
       subtitle: "Tasso",
@@ -184,10 +190,16 @@ const DECK_DATA = {
       name: "Deck 14",
       subtitle: "",
       cabins: [],
-      message: "We are sorry, we have no available inventory for 1 guest."
+      message: "Deck 14 has been completely booked"
     }
   },
   2: { // 2 Guests
+    5: {
+      name: "Deck 5",
+      subtitle: "",
+      cabins: [],
+      message: "Deck 5 has been completely booked."
+    },
     8: {
       name: "Deck 8",
       subtitle: "Tasso",
@@ -372,10 +384,16 @@ const DECK_DATA = {
       name: "Deck 14",
       subtitle: "",
       cabins: [],
-      message: "We are sorry, we have no available inventory for 2 guests."
+      message: "Deck 14 has been completely booked"
     }
   },
     3: { // 3 Guests
+      5: {
+        name: "Deck 5",
+        subtitle: "",
+        cabins: [],
+        message: "Deck 5 has been completely booked."
+    },
     8: {
       name: "Deck 8",
       subtitle: "Tasso",
@@ -498,10 +516,16 @@ const DECK_DATA = {
       name: "Deck 14",
       subtitle: "",
       cabins: [],
-      message: "We are sorry, we have no available inventory for 3 guests."
+      message: "Deck 14 has been completely booked"
     }
   },
     4: { // 4 Guests
+      5: {
+        name: "Deck 5",
+        subtitle: "",
+        cabins: [],
+        message: "Deck 5 has been completely booked."
+      },
     8: {
       name: "Deck 8",
       subtitle: "Tasso",
@@ -592,7 +616,7 @@ const DECK_DATA = {
       name: "Deck 14",
       subtitle: "",
       cabins: [],
-      message: "We are sorry, we have no available inventory for 4 guests."
+      message: "Deck 14 has been been completely booked"
     }
   }
 };
